@@ -9,11 +9,6 @@ function App() {
      <div>
      <BarChart />
      </div>
-     <div className= 'footer'>
-      <div>
-      Sorting Visualizer
-       </div>
-     </div>
     </div>
   );
 }
