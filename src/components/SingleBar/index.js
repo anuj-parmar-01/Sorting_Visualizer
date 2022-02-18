@@ -11,7 +11,7 @@ export default function SingleBar (value) {
 //    console.log(activeColor,"color")
     return (
         <>
-         <div style={{height:`${value.bar*5}px`,
+         <div style={{height:`${value.bar*4}px`,
          background: `${value.currentBlock && value.currentBlock.indexOf(value.index)!==-1 ? activeColor : "blue"}`}}
           className={styles.chart}>
            </div>
