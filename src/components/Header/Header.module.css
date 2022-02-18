@@ -1,0 +1,70 @@
+.header {
+    background-color: currentColor;
+    height: 100px;
+
+}
+.font_20{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.font_16 {
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+}
+.font_weight{
+    font-weight: 500;
+}
+
+.range_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.flex {
+    display: flex;
+}
+.range_container span{
+    display: inline-block;
+    width: 120px;
+}
+  .active{
+    background: white;
+    color: green;
+    border-radius: 5px;
+    width: 110px;
+    
+}
+.sortbtn:hover{
+    cursor: pointer;
+
+}
+.sortbtn{
+    background: transparent;
+    border: none;
+}
+.performbtn{
+    width: 50px;
+    height: 23px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    font-weight: 700;
+    color: green;
+}
+.performbtn:hover {
+    cursor: pointer
+}
+
+.change_arr{
+    height: 23px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    font-weight: 700;
+    color: green;   
+}
+.change_arr:hover{
+    cursor: pointer;
+}

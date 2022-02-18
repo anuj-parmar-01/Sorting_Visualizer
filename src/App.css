@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.footer{
+   width:100%;
+   position: absolute;
+   bottom: 0;
+   background-color: currentColor;
+   height: 2rem;
+   font-weight: 500;
+}
+.footer div {
+  color: white;
+}

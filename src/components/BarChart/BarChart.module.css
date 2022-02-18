@@ -1,0 +1,25 @@
+.container{
+    max-width: 80%;
+    height: 500px;
+    margin: 0 auto;
+ }
+ 
+ .chart_container {
+     display: flex;
+     width: 100%;
+     height: 100%;
+     justify-content: center;
+     align-items: flex-end;
+     gap: 4px;
+
+ }
+ 
+ .grey_line{
+     background-color: grey;
+     width: 100%;
+     height: 5px;
+ }
+
+ .outer_container {
+     padding-top: 3rem;
+ }
