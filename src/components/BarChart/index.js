@@ -31,18 +31,18 @@ export default function BarChart() {
           return InsertionSort(bars)
     }
   }
-console.log(bars)
+// console.log(bars)
   const handleSort = () => {
     let steps = setSort(selectedAlgo, bars)
-    console.log(steps, "step")
+    // console.log(steps, "step")
     let arr = []
     for (let i = 0; i < steps.length; i++) {
       (function () {
         setTimeout(() => {
           checkColor(null)
-          console.log(steps[i], "step")
+          // console.log(steps[i], "step")
           let [j, k, arr] = steps[i]
-          console.log("current step set1")
+          // console.log("current step set1")
           setCurrentStep([j, k])
           if (arr) {
             setBar(arr)
